@@ -5,7 +5,7 @@ Pvp tournament plugin
 ## Get Tournament interface
 
 Download API: https://github.com/Maxlego08/zTournament-API/releases/tag/1.0
-JavaDocs: https://docs.groupez.xyz/ztournament/
+<br>JavaDocs: https://docs.groupez.xyz/ztournament/
 
 ```java
 Tournament tournament = getProvider(Tournament.class);
