@@ -13,12 +13,12 @@ public interface Duel {
 
 	/**
 	 * 
-	 * @return
+	 * @return team
 	 */
 	Team getTeam();
 
 	/**
-	 * 
+	 * Start duel
 	 * @param location
 	 * @param location2
 	 */
@@ -27,31 +27,31 @@ public interface Duel {
 	/**
 	 * 
 	 * @param team
-	 * @return
+	 * @return boolean
 	 */
 	boolean match(Team team);
 
 	/**
-	 * 
+	 * When player loose
 	 * @param player
 	 */
 	void onPlayerLoose(Player player);
 
 	/**
 	 * 
-	 * @return
+	 * @return boolean
 	 */
 	boolean hasWinner();
 
 	/**
-	 * 
-	 * @return
+	 * Get winner
+	 * @return team
 	 */
 	Team getWinner();
 
 	/**
-	 * 
-	 * @return
+	 * Get looser
+	 * @return team
 	 */
 	Team getLooser();
 
@@ -62,32 +62,32 @@ public interface Duel {
 	void message(String string);
 
 	/**
-	 * 
+	 * Heal teams
 	 */
 	void heal();
 
 	/**
 	 * 
 	 * @param team
-	 * @return
+	 * @return team
 	 */
 	Team getOpponent(Team team);
 
 	/**
 	 * 
-	 * @return
+	 * @return boolean
 	 */
 	boolean isDuel();
 
 	/**
-	 * 
+	 * Set arena
 	 * @param arena
 	 */
 	void setArenea(Arena arena);
 
 	/**
-	 * 
-	 * @return
-	 */
+	 * Get arena
+	 * @return arena
+	 */ 
 	Arena getArena();
 }

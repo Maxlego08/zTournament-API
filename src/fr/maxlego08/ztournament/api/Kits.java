@@ -10,50 +10,50 @@ import fr.maxlego08.ztournament.zcore.utils.storage.Saveable;
 public interface Kits extends Saveable{
 
 	/**
-	 * 
+	 * Get kit by name
 	 * @param name
-	 * @return
+	 * @return kit
 	 */
 	Kit getKit(String name);
 	
 	/**
-	 * 
+	 * Check if kit exit
 	 * @param name
-	 * @return
+	 * @return boolean
 	 */
 	boolean existKit(String name);
 	
 	/**
-	 * 
+	 * Create kit
 	 * @param sender
 	 * @param name
 	 */
 	void createKit(CommandSender sender, String name);
 	
 	/**
-	 * 
+	 * Edit kit
 	 * @param player
 	 * @param name
 	 */
 	void editKit(Player player, String name);
 	
 	/**
-	 * 
+	 * Show kit
 	 * @param player
 	 * @param name
 	 */
 	void showKit(Player player, String name);
 	
 	/**
-	 * 
+	 * Delete kit
 	 * @param sender
 	 * @param name
 	 */
 	void deleteKit(CommandSender sender, String name);
 	
 	/**
-	 * 
-	 * @return
+	 * Get kits name
+	 * @return list
 	 */
 	List<String> getNames();
 }

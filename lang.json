@@ -1,0 +1,181 @@
+{
+  "messages": {
+    "INVENTORY_OPEN_ERROR": "§cUne erreur est survenue avec l'ouverture de l'inventaire §6%s§c.",
+    "TOURNAMENT_JOIN_ERROR_TEAM_ALREADY": "§cYou are already in a team.",
+    "TOURNAMENT_WAVE_NEXT_TIME": "§eStarting the next round in §f10 §eseconds.",
+    "TITLE_WIN": {
+      "isUse": true,
+      "subtitle": "§eCongratulations to the §f%team% §eteam that wins the tournament !",
+      "start": 10,
+      "end": 30,
+      "time": 100,
+      "title": "§f§kII§e Tournament §f§kII"
+    },
+    "TOURNAMENT_JOIN_ERROR_JOIN": "§cYou cannot join a team at the moment.",
+    "TOURNAMENT_INVITE_ERROR_PLAYER": "§cYou cannot invite yourself to your own team.",
+    "TOURNAMENT_JOIN_ERROR_INVENOTRY": "§cYou must have an empty inventory to take part in tournaments §8(§7Your inventory will be deleted when you join a team§8)",
+    "TOURNAMENT_ARENA_CREATE": "§2You just created an arena.",
+    "TOURNAMENT_CREATE_ERROR_NAME": "§cThe name of your team must be alphanumeric, the character §f%char% §cis not allowed.",
+    "TOURNAMENT_INVITE_ERROR_TYTE": "§cYou cannot invite a player for a §f1v1§c tournament.",
+    "TOURNAMENT_ARENA_DELETE": "§cYou just deleted an arena.",
+    "TIME_HOUR": "%02d hour(s) %02d minute(s) %02d second(s)",
+    "TIME_HOUR_SIMPLE": "%02d:%02d:%02d",
+    "TOURNAMENT_INVITE_ERROR_TEAM": "§cYou don't have a team, you can't do this.",
+    "TOURNAMENT_CREATE_ERROR_EXIT": "§cThe name §f%name% §cis already taken, please choose another one.",
+    "TOURNAMENT_ARENA_NO": "§cNo arena available.",
+    "TOURNAMENT_JOIN_SUCCESS_INFO": "§f%player% §ejust joined your team.",
+    "TOURNAMENT_CREATE_ERROR_NAME_MIN": "§cThe name of your team must have at least §f%min% §characters.",
+    "COMMAND_NO_CONSOLE": "§cOnly players can execute this command",
+    "COMMAND_NO_ARG": "§cThis argument does not exist!",
+    "TOURNAMENT_CREATE_ERROR_INVENOTRY": "§cYou must have an empty inventory to take part in tournaments §8(§7Your inventory will be deleted when you join a team§8)",
+    "TOURNAMENT_START_FIRST_WAVE": [
+      "§eStarting the PVP tournament !",
+      "§eNumber of teams in the tournament§7: §f%size%"
+    ],
+    "TOURNAMENT_START": [
+      "§Starting a PVP tournament in §6%type% §ein §65 §eminutes§e.",
+      "§eDo §f/tournois§e to have all commands"
+    ],
+    "TOURNAMENT_CREATE_ERROR": "§cYou cannot create a team at this time.",
+    "TELEPORT_SUCCESS": "§7Téléportation effectuée !",
+    "TOURNAMENT_LOBBY_CREATE": "§2Lobby's location has been set with success.",
+    "TOURNAMENT_INVITE_REMOVE": "§f%player% §ehas canceled the invitation from §6%target% §eto join your team.",
+    "TOURNAMENT_CREATE_TEAM_BROADCAST": "§f%player% §ecreated team §6%team%§e.",
+    "TOURNAMENT_STOP": "§cThe PVP tournament's just been cancelled.",
+    "TOURNAMENT_ARENA_NOT_FOUND": "§cCouldn't find the arena.",
+    "TIME_MINUTE": "%02d minute(s) %02d second(s)",
+    "TOURNAMENT_KIT_EDIT": "§eYou edited the kit §f%s§e.",
+    "TOURNAMENT_WAVE_START": [
+      "§eNumber of duels§7: §6%duel%",
+      "§eStarting round number §6%round% §e! May the best win !"
+    ],
+    "INVENTORY_CLONE_NULL": "§cLe clone de l'inventaire est null !",
+    "COMMAND_SYNTAXE_ERROR": "§cYou must execute the command like this§7: §2%command%",
+    "PREFIX": "§8(§6zTournament§8)",
+    "TOURNAMENT_START_ERROR_PLAYER_CANCEL": "§cNot enough players, event canceled!",
+    "TOURNAMENT_INVITE_TEAM": "§f%player% §esent an invitation to §6%target% §eto join your team.",
+    "TOURNAMENT_INVITE_INFO_JSON_HOVER": "§7Click to join §f%team%§7.",
+    "TOURNAMENT_KIT_ALREADY_EXIST": "§cKit §f%name% §calready exists",
+    "TOURNAMENT_START_ERROR_TEAM": "§cNo teams has been found, canceling the tournament...",
+    "TOURNAMENT_PLAYER_LOOSE": "§f%player% §ehas just been eliminated!",
+    "TITLE_START_INFO": {
+      "isUse": true,
+      "subtitle": "§eStill §6%timer% §ebefore starting PVP tournament.",
+      "start": 0,
+      "end": 10,
+      "time": 60,
+      "title": "§f§kII§e Tournament §f§kII"
+    },
+    "TIME_SECOND": "%02d second(s)",
+    "TOURNAMENT_INVITE_ERROR": "§cYou cannot invite a player at this time.",
+    "TOURNAMENT_TEAM_PLAYER_ERROR": "§cYou are not in a team.",
+    "PREFIX_END": "§8(§6zTournament§8)",
+    "TELEPORT_MOVE": "§cVous ne devez pas bouger !",
+    "TOURNAMENT_HELP_HEADER": "§8[§b?§8] §7Commands lists:",
+    "TOURNAMENT_KIT_DELETE": "§eYou deleted kit §6%name%§e.",
+    "TOURNAMENT_CLASSEMENT": "§eThe team §6%team% §ehas finished §f%position% §eat tournaments.",
+    "TOURNAMENT_DUEL_WIN": "§eYou've just won your duel!",
+    "TOURNAMENT_CLASSEMENT_HOVER_PLAYER": " §f- §f%player%",
+    "TOURNAMENT_WIN": [
+      "§ePvp tournament event over !",
+      "",
+      "§eTeam ranking"
+    ],
+    "TOURNAMENT_START_TIMER": "§eStill §6%timer% §ebefore starting the PVP tournament.",
+    "TOURNAMENT_WAVE_TIMER": "§eEnd of the round §6%round% §ein §f%timer%§e.",
+    "TELEPORT_MESSAGE": "§7Téléportation dans §3%s §7secondes !",
+    "TOURNAMENT_START_ERROR_PLAYER": "§eNot enough players to start the tournament, you still have §65 §eminutes to create a team.",
+    "COMMAND_SYNTAXE_HELP": "§f%s §7» §b%s",
+    "TOURNAMENT_NOT_ENABLE": "§cNo tournaments in progress.",
+    "TOURNAMENT_WAVE_AUTO": "§eYou are automatically qualified for the next round!",
+    "COMMAND_NO_PERMISSION": "§cYou don't have the permission permission to use that!",
+    "TOURNAMENT_HELP_ADMIN_KIT": [
+      "§6» §e/tournament kit list§8- §7Show kit list.",
+      "§6» §e/tournament kit show <name>§8- §7Show kit content.",
+      "§6» §e/tournament kit create <name>§8- §7Create an empty kit.",
+      "§6» §e/tournament kit edit <name>§8- §7Edit a kit.",
+      "§6» §e/tournament kit delete <name>§8- §7Edit a kit."
+    ],
+    "INVENTORY_BUTTON_NEXT": "§f» §7Page suivante",
+    "TOURNAMENT_WAVE_NEXT": "§eNumber of teams remaining§7: §6%team%",
+    "TOURNAMENT_KIT_CREATE": "§eYou created kit §6%name%§e.",
+    "TOURNAMENT_ENABLE": "§cNo tournaments in progress.",
+    "TOURNAMENT_CREATE_ERROR_PLAYER": "§cYou already have a team, you cannot create another.",
+    "TOURNAMENT_JOIN_ERROR": "§cYou cannot join this team.",
+    "TOURNAMENT_START_ERROR_ARENA": "§cYou have to create at least one arena in order to start.",
+    "TOURNAMENT_KIT_NOT_EXIST": "§cKit §f%name% §cdoesn't exists",
+    "TOURNAMENT_TEAM_LEAVE_ERROR": "§cYou cannot leave your team during the fight.",
+    "TOURNAMENT_HELP_ADMIN": [
+      "§6» §e/tournament arena §f<§bloc§f> §8- §7Create an arena.",
+      "§6» §e/tournament delete §f<§buuid§f> §8- §7Delete an arena.",
+      "§6» §e/tournament list §8- §7Show an arena.",
+      "§6» §e/tournament setlobby §8- §7Set lobby's position.",
+      "§6» §e/tournament stop §8- §7Shop a tournament.",
+      "§6» §e/tournament wave §8- §7Start next wave.",
+      "§6» §e/tournament start §f<§btype§f> §f<§bkit name§f>§8- §7Start tournament.",
+      "§6» §e/tournament kit §8- §7Show kit commands.",
+      "§6» §e/tournament reload §8- §7Reload the plugin."
+    ],
+    "TITLE_JOIN_SUCCESS": {
+      "isUse": true,
+      "subtitle": "§eYou joined the team §f%team% §e!",
+      "start": 10,
+      "end": 10,
+      "time": 60,
+      "title": "§f§kII§e Congratulations §f§kII"
+    },
+    "INVENTORY_NULL": "§cImpossible de trouver l'inventaire avec l'id §6%s§c.",
+    "TOURNAMENT_JOIN_ERROR_TEAM": "§cNo team with the name §f%team% §cexists.",
+    "TOURNAMENT_WIN_ERROR": "§cNobody has won the tournament event!",
+    "TITLE_START": {
+      "isUse": true,
+      "subtitle": "§eA §f%type% §etournament just start !",
+      "start": 10,
+      "end": 10,
+      "time": 60,
+      "title": "§f§kII§e Tournois §f§kII"
+    },
+    "TOURNAMENT_HELP": [
+      "§6» §e/tournament create §f<§bnom de team§f> §8- §7Create a team",
+      "§6» §e/tournament join §f<§bnom de team§f> §8- §7Join a team.",
+      "§6» §e/tournament invite §f<§bplayer§f> §8- §7Invite a player to your team.",
+      "§6» §e/tournament leave §8- §7Leave your team.",
+      "§6» §e/tournament version §8- §7Show plugin's version."
+    ],
+    "TOURNAMENT_WAVE_END": "§eTime elapsed, the next round will start...",
+    "TOURNAMENT_TEAM_LEAVE": "§cYou are leaving your team.",
+    "TOURNAMENT_INVITE_INFO_JSON": "§eDo §f/tournament join %team% §etournaments to join this team. §8(§bClick here§8)",
+    "TITLE_START_ERROR_PLAYER": {
+      "isUse": true,
+      "subtitle": "§cyou still have §f5 §cminutes to create a team.",
+      "start": 10,
+      "end": 10,
+      "time": 60,
+      "title": "§cNot enough players to start the tournament"
+    },
+    "TOURNAMENT_DUEL_LOOSE": [
+      "§eYou lost the tournament, your team's just been disqualified.",
+      "§eYou are at position §f%position% §eof §6%team%§e."
+    ],
+    "TOURNAMENT_CREATE_ERROR_NAME_MAX": "§cThe name of your team must not exceed §f%max% §ccharacters.",
+    "TIME_DAY": "%02d day(s) %02d hour(s) %02d minute(s) %02d second(s)",
+    "TELEPORT_ERROR": "§cVous avez déjà une téléportation en cours !",
+    "TOURNAMENT_CLASSEMENT_HOVER": [
+      "§ePlayers§7:",
+      "%players%"
+    ],
+    "TOURNAMENT_INVITE_ERROR_OWNER": "§cOnly the leader of your team can invite players.",
+    "TITLE_CREATE_SUCCESS": {
+      "isUse": true,
+      "subtitle": "§eYou created a §fteam §efor the PVP tournament !",
+      "start": 10,
+      "end": 10,
+      "time": 60,
+      "title": "§f§kII§e Congratulations §f§kII"
+    },
+    "TOURNAMENT_START_ERROR_LOOBY": "§cYou have to set lobby's location in order to start..",
+    "TOURNAMENT_INVITE_INFO": "§e§6%player% §etinvited you to join §f%team%",
+    "TOURNAMENT_JOIN_ERROR_INVITE": "§cYou must be invited to join this team.",
+    "INVENTORY_BUTTON_PREVIOUS": "§f» §7Page précédente"
+  }
+}

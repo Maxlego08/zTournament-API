@@ -1,0 +1,78 @@
+{
+  "sendMessageInAction": true,
+  "restartTeamSearch": true,
+  "showRanking": true,
+  "rankingSize": 3,
+  "rankingPosition": {
+    "1": "§4first",
+    "2": "§csecond",
+    "3": "§6third",
+    "4": "§dfourth",
+    "5": "§bfive"
+  },
+  "teamNameMinName": 3,
+  "teamNameMaxName": 14,
+  "timeStartTournamentInSecond": 300,
+  "timeWaveEndInSecond": 300,
+  "timeWaveNextInSecond": 10,
+  "displayTournamentInformations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    10,
+    15,
+    30,
+    60,
+    120,
+    180,
+    260,
+    300
+  ],
+  "displayWaveEndInformations": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    10,
+    15,
+    30,
+    60,
+    120,
+    180,
+    260,
+    300
+  ],
+  "rewards": [
+    {
+      "minPosition": 1,
+      "maxPosition": 1,
+      "commands": [
+        "bc %team% is strong"
+      ]
+    },
+    {
+      "minPosition": 2,
+      "maxPosition": 2,
+      "commands": [
+        "bc %player% is not really strong"
+      ]
+    },
+    {
+      "minPosition": 3,
+      "maxPosition": 5,
+      "commands": [
+        "bc %team% is bad"
+      ]
+    },
+    {
+      "minPosition": 6,
+      "maxPosition": 10,
+      "commands": [
+        "bc %team% is poop"
+      ]
+    }
+  ]
+}
