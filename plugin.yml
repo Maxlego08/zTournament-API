@@ -1,0 +1,5 @@
+name: zTournament
+author: Maxlego08
+main: fr.maxlego08.ztournament.ZTournamentPlugin
+version: DEV-0.0.0.3
+commands:
