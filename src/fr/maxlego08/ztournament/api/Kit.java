@@ -8,66 +8,66 @@ public interface Kit {
 
 	/**
 	 * 
-	 * @return name
+	 * @return
 	 */
 	String getName();
 
 	/**
-	 * Get leggings
-	 * @return itemstack
+	 * 
+	 * @return
 	 */
 	ItemStack getLeggings();
 
 	/**
-	 * getHelmet
-	 * @return itemstack
+	 * 
+	 * @return
 	 */
 	ItemStack getHelmet();
 
 	/**
-	 * Get checkplate
-	 * @return itemstack
+	 * 
+	 * @return
 	 */
 	ItemStack getChestplate();
 
 	/**
-	 * Get boots
-	 * @return itemstack
+	 * 
+	 * @return
 	 */
 	ItemStack getBoots();
 
 	/**
-	 * Get items
-	 * @return items
+	 * 
+	 * @return
 	 */
 	Map<Integer, ItemStack> getItems();
 
 	/**
-	 * Set leggings
+	 * 
 	 * @param itemStack
 	 */
 	void setLeggings(ItemStack itemStack);
 
 	/**
-	 * Set boots
+	 * 
 	 * @param itemStack
 	 */
 	void setBoots(ItemStack itemStack);
 
 	/**
-	 * Set chestplate
+	 * 
 	 * @param itemStack
 	 */
 	void setChestplate(ItemStack itemStack);
 
 	/**
-	 * Set leggings
+	 * 
 	 * @param itemStack
 	 */
 	void setHelmet(ItemStack itemStack);
 
 	/**
-	 * Set items
+	 * 
 	 * @param items
 	 */
 	void setItems(Map<Integer, ItemStack> items);

@@ -11,113 +11,113 @@ import fr.maxlego08.ztournament.zcore.enums.Message;
 public interface Team {
 
 	/**
-	 * Send message
+	 * 
 	 * @param message
 	 * @param args
 	 */
 	void message(String message, Object... args);
 
 	/**
-	 * Teleport team to location
+	 * 
 	 * @param location
 	 */
 	void teleport(Location location);
 
 	/**
-	 * Clear team inventory
+	 * 
 	 */
 	void clear();
 
 	/**
-	 * Give kit to team
+	 * 
 	 */
 	void give();
 
 	/**
-	 * Give kit to player
+	 * 
 	 * @param player
 	 */
 	void give(Player player);
 
 	/**
-	 * Check if player is in team
+	 * 
 	 * @param player
-	 * @return true if player is in team
+	 * @return
 	 */
 	boolean match(Player player);
 
 	/**
-	 * Join team
+	 * 
 	 * @param player
-	 * @return true if player has join
+	 * @return
 	 */
 	boolean join(Player player);
 
 	/**
-	 * Show team
+	 * 
 	 * @param team
 	 */
 	void show(Team team);
 
 	/**
-	 * Hide team
+	 * 
 	 * @param team
 	 */
 	void hide(Team team);
 
 	/**
-	 * Heal team
+	 * 
 	 */
 	void heal();
 
 	/**
-	 * Check if team has loose
-	 * @return boolean
+	 * 
+	 * @return
 	 */
 	boolean hasLoose();
 
 	/**
-	 * Show every player
+	 * 
 	 */
 	void show();
 
 	/**
-	 * Hide every player
+	 * 
 	 */
 	void hide();
 
 	/**
-	 * Get team name
-	 * @return name
+	 * 
+	 * @return
 	 */
 	String getName();
 
 	/**
-	 * Get max player in team
-	 * @return amount
+	 * 
+	 * @return
 	 */
 	int getMaxPlayers();
 
 	/**
-	 * Get online players
-	 * @return players
+	 * 
+	 * @return
 	 */
 	List<Player> getPlayers();
 
 	/**
-	 * Get all player name
-	 * @return players
+	 * 
+	 * @return
 	 */
 	List<String> getUsers();
 
 	/**
-	 * Get team owner
-	 * @return player
+	 * 
+	 * @return
 	 */
 	Player getOwner();
 
 	/**
-	 * When player death
+	 * 
 	 * @param player
 	 */
 	void death(Player player);
@@ -130,25 +130,25 @@ public interface Team {
 	boolean contains(Player player);
 
 	/**
-	 * Disband team
+	 * 
 	 */
 	void disband();
 
 	/**
-	 * Player leave team
+	 * 
 	 * @param player
 	 */
 	void leave(Player player);
 
 	/**
 	 * 
-	 * @return true
+	 * @return
 	 */
 	boolean isInDuel();
 
 	/**
-	 * Set team in duel
-	 * @param boolean
+	 * 
+	 * @param b
 	 */
 	void setInDuel(boolean b);
 
@@ -158,72 +158,79 @@ public interface Team {
 	void reMap();
 
 	/**
-	 * Get every players from team
-	 * @return players
+	 * 
+	 * @return
 	 */
 	List<OfflinePlayer> getRealPlayers();
 
 	/**
-	 * if player is alive
+	 * 
 	 * @param zPlayer
-	 * @return boolean
+	 * @return
 	 */
 	boolean isAlive(Player zPlayer);
 
 	/**
-	 * Invite a player
+	 * 
 	 * @param player
 	 */
 	void invite(Player player);
 
 	/**
-	 * Remove invite for a player
+	 * 
 	 * @param player
 	 */
 	void removeInvite(Player player);
 
 	/**
-	 * Check if player is invite
+	 * 
 	 * @param player
-	 * @return boolean
+	 * @return
 	 */
 	boolean isInvite(Player player);
 
 	/**
-	 * Check if player is owner
+	 * 
 	 * @param player
-	 * @return boolean
+	 * @return
 	 */
 	boolean isOwner(Player player);
 
 	/**
-	 * Get team position
-	 * @return position
+	 * 
+	 * @return
 	 */
 	int getPosition();
 
 	/**
-	 * Set team position
+	 * 
 	 * @param position
 	 */
 	void setPosition(int position);
 
 	/**
-	 * Check if team is valid
-	 * @return boolean
+	 * 
+	 * @return
 	 */
 	boolean isValid();
 
 	/**
-	 * Send message
+	 * 
 	 * @param message
 	 */
 	void message(Message message);
 	
 	/**
-	 * Get kit
-	 * @return kit
+	 * 
+	 * @return
 	 */
 	Kit getKit();
+
+	/**
+	 * 
+	 * @param player
+	 * @return
+	 */
+	boolean match(OfflinePlayer player);
 
 }

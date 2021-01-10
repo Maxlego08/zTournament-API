@@ -8,56 +8,99 @@ import org.bukkit.Location;
 public interface Arena {
 
 	/**
-	 * Get arena id
+	 * 
 	 * @return uuid
 	 */
+	@Deprecated
 	UUID getId();
 
 	/**
-	 * Get pos1
-	 * @return location
+	 * Get unique id
+	 * 
+	 * @return
+	 */
+	UUID getUniqueId();
+
+	/**
+	 * 
+	 * @return {@link Location}
 	 */
 	Location getPos1();
 
 	/**
-	 * Get pos2
-	 * @return location
+	 * 
+	 * @return {@link Location}
 	 */
 	Location getPos2();
 
 	/**
-	 * Get duels
-	 * @return duels
+	 * 
+	 * @return location as string
+	 */
+	String getPos1String();
+
+	/**
+	 * 
+	 * @return location as string
+	 */
+	String getPos2String();
+
+	/**
+	 * 
+	 * @return
 	 */
 	List<Duel> getTeams();
 
 	/**
-	 * Get duels size
-	 * @return amount
+	 * 
+	 * @return
 	 */
 	int size();
-	
+
 	/**
 	 * 
-	 * @return boolean
+	 * @return
 	 */
 	boolean hasTeams();
-	
+
 	/**
-	 * Add duel
+	 * 
 	 * @param team
 	 */
 	void addDuel(Duel team);
-	
+
 	/**
-	 * Remove duel
+	 * 
 	 * @param team
 	 */
 	void removeDuel(Duel team);
 
 	/**
-	 * Clear list
+	 * 
 	 */
 	void clear();
-	
+
+	/**
+	 * 
+	 * @return arena name
+	 */
+	String getName();
+
+	/**
+	 * 
+	 * @param name
+	 */
+	void setName(String name);
+
+	/**
+	 * 
+	 * @param location
+	 */
+	void setPos1(Location location);
+
+	/**
+	 * 
+	 * @param location
+	 */
+	void setPos2(Location location);
 }
